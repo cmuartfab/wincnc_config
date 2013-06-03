@@ -1,0 +1,4 @@
+s5000
+m12C12       [SPINDLE OFF]
+m64          [DUST OFF]
+l20          [SOFT LIMITS ON]

@@ -1,0 +1,22 @@
+[Check for moisture collected in regulator traps]
+[Check all 3 lubricators oil levels     10wt air tool oil]
+[Is area clear to home machine]
+[Does the Main Air regulator read 90-120psi]
+G4
+[Does the air regulator above spindle read 62psi]
+G4
+
+m98 home.mac
+T1
+g53 x{tmx}y{tmy}
+m3
+s9000
+g4x120
+s13500
+g4x120
+s18000
+g4x60
+m5
+[*****Machine is ready for use*****]
+[**Run warmup again if it has been idle for  1  hour**]
+

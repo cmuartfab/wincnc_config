@@ -1,0 +1,11 @@
+CNC.pos
+CNC.tmp
+Log
+Jobs
+draw.tmp
+startup.log
+RESTART.POS
+SPOS.POS
+*.exe
+*.sys
+*.dll

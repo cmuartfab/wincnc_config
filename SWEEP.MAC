@@ -1,0 +1,40 @@
+g90
+m5         [spindle off]
+t0         [EMPTY TOOL]
+g53z
+m62        [Vac off]
+M63	   [DUST BOOT DOWN]
+f800
+g53x2y2
+l21
+g53z-5.759
+l91x44
+l91y5
+l91x-44
+l91y5
+l91x44
+l91y5
+l91x-44
+l91y5
+l91x44
+l91y5
+l91x-44
+l91y5
+l91x44
+l91y5
+l91x-44
+l91y5
+l91x44
+l91y5
+l91x-44
+
+
+
+
+
+m64        [DUST OFF]
+g53z
+g53t4y
+l20        [SOFT LIMITS ON]
+m65
+

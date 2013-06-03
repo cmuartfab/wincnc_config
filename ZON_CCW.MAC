@@ -1,0 +1,6 @@
+m11c14     [SPINDLE ON REV]
+m12c12     [SPINDLE FWD OFF]
+m17c10     [SPEED]
+m2         [MANUAL OFF]
+m63        [DUST ON]
+L20        [SOFT LIMITS ON]

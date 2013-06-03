@@ -1,0 +1,8 @@
+m17c12     [Is there a tool in the spindle]
+m11c12     [SPINDLE ON]
+m12c14     [SPINDLE REV OFF]
+m17c10     [SPEED]
+m2         [MANUAL OFF]
+M66	   [POPUP PINS DOWN]
+m63        [DUST ON]
+L20        [SOFT LIMITS ON]

@@ -1,0 +1,8 @@
+l51 s {s}
+m17.2 c12           [Run Next Line If Spindle On]
+g4 x.5
+m17.2 c12           [Run Next Line If Spindle On]
+m17 c10             [Wait for up to speed]
+
+
+
