@@ -1,4 +1,3 @@
-[Standard Macro file for CNT MOTION SYSTEMS WinCNC]
 m07=m11c1
 m08=m11c1
 
@@ -19,12 +18,12 @@ m62.1=m98 macros.vacuum_off.mac
 M61.1=m98 BGCLOSE.MAC
 m62=m98 Bgopen.mac
 
-
 m63=m98 macros.dust_on.mac
 m64=m98 macros.dust_off.mac
 m65=m98 macros.pop_pins_up.mac
 m66=m98 macros.pop_pins_down.mac
 
+[ Disable G17, XY Plane Selection ]
 g17=[
 
 
