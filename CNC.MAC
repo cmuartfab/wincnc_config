@@ -27,7 +27,7 @@ m66=m98 macros.pop_pins_down.mac
 g17=[
 
 
-t0=m98 macros.drop_tool.mac
+t0=m98 macros.stow_tool.mac
 t1=m98 macros.change_tool.mac t1              [Change To Tool 1]
 t2=m98 macros.change_tool.mac t2              [Change To Tool 2]
 t3=m98 macros.change_tool.mac t3              [Change To Tool 3]
