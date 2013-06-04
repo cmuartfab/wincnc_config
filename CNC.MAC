@@ -14,14 +14,15 @@ m52=m98 macros.tool_release.mac
 m53=m98 macros.clamp_tool.mac
 
 m61=m98 macros.vacuum_on.mac
-m62.1=m98 macros.vacuum_off.mac
-M61.1=m98 BGCLOSE.MAC
-m62=m98 Bgopen.mac
+m62.1=m98 macros.vacuum_off.mac [ hurts the motor so use sparingly
+M61.1=m98 macros.table_vacuum_bypass_off.mac
+m62=m98 macros.table_vacuum_bypass_on.mac
+[ TODO(maxhawkins): test if m61.1 and m62 really work
 
-m63=m98 macros.dust_on.mac
-m64=m98 macros.dust_off.mac
-m65=m98 macros.pins_pop_up.mac
-m66=m98 macros.pins_pop_down.mac
+m63=m98 macros.vacuum_dust_boot_down.mac
+m64=m98 macros.vacuum_dust_boot_up.mac
+m65=m98 macros.pop_pins_up.mac
+m66=m98 macros.pop_pins_down.mac
 
 [ Disable G17, XY Plane Selection ]
 g17=[
