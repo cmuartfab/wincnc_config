@@ -5,14 +5,14 @@ m08=m11c1
 m1=m98 manual.mac
 m2=m98 manoff.mac
 
-m3=m98 zon.mac
-m4=m98 zon_CCW.mac
-m5=m98 zoff.mac
+m3=m98 macros.spindle_on_cw.mac
+m4=m98 macros.spindle_on_ccw.mac
+m5=m98 macros.spindle_off.mac
 
 m30=m98 clear.mac
 
-m52=m98 release.mac
-m53=m98 clamp.mac
+m52=m98 macros.release_tool.mac
+m53=m98 macros.clamp_tool.mac
 
 m61=m98 macros.vacuum_on.mac
 m62.1=m98 macros.vacuum_off.mac
