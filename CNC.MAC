@@ -10,7 +10,7 @@ m5=m98 macros.spindle_off.mac
 
 m30=m98 clear.mac
 
-m52=m98 macros.release_tool.mac
+m52=m98 macros.tool_release.mac
 m53=m98 macros.clamp_tool.mac
 
 m61=m98 macros.vacuum_on.mac
@@ -20,23 +20,23 @@ m62=m98 Bgopen.mac
 
 m63=m98 macros.dust_on.mac
 m64=m98 macros.dust_off.mac
-m65=m98 macros.pop_pins_up.mac
-m66=m98 macros.pop_pins_down.mac
+m65=m98 macros.pins_pop_up.mac
+m66=m98 macros.pins_pop_down.mac
 
 [ Disable G17, XY Plane Selection ]
 g17=[
 
 
-t0=m98 macros.stow_tool.mac
-t1=m98 macros.change_tool.mac t1              [Change To Tool 1]
-t2=m98 macros.change_tool.mac t2              [Change To Tool 2]
-t3=m98 macros.change_tool.mac t3              [Change To Tool 3]
-t4=m98 macros.change_tool.mac t4              [Change To Tool 4]
-t5=m98 macros.change_tool.mac t5              [Change To Tool 5]
-t6=m98 macros.change_tool.mac t6              [Change To Tool 6]
-t7=m98 macros.change_tool.mac t7              [Change To Tool 7]
-t8=m98 macros.change_tool.mac t8              [Change To Tool 8]
-t9=m98 macros.change_tool.mac t9              [Change To Tool 9]
-t10=m98 macros.change_tool.mac t10            [Change To Tool 10]
-t11=m98 macros.change_tool.mac t11            [Change To Tool 11]
+t0=m98 macros.tool_stow.mac
+t1=m98 macros.tool_change.mac t1              [Change To Tool 1]
+t2=m98 macros.tool_change.mac t2              [Change To Tool 2]
+t3=m98 macros.tool_change.mac t3              [Change To Tool 3]
+t4=m98 macros.tool_change.mac t4              [Change To Tool 4]
+t5=m98 macros.tool_change.mac t5              [Change To Tool 5]
+t6=m98 macros.tool_change.mac t6              [Change To Tool 6]
+t7=m98 macros.tool_change.mac t7              [Change To Tool 7]
+t8=m98 macros.tool_change.mac t8              [Change To Tool 8]
+t9=m98 macros.tool_change.mac t9              [Change To Tool 9]
+t10=m98 macros.tool_change.mac t10            [Change To Tool 10]
+t11=m98 macros.tool_change.mac t11            [Change To Tool 11]
 
