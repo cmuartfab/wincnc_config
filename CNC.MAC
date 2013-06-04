@@ -11,9 +11,6 @@ m5=m98 zoff.mac
 
 m30=m98 clear.mac
 
-[m50=m98 tbout.mac
-[m51=m98 tbin.mac
-
 m52=m98 release.mac
 m53=m98 clamp.mac
 
