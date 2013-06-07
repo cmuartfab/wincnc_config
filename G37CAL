@@ -10,6 +10,7 @@ G4
 [SPOIL BOARD WITH THE VACUUM ON]
 [If machine is not at this position, press esc button on 
 [keyboard and jog BIT to TOP OF THE spoil board.
+[TODO(maxhawkins): this measures the spoilboard]
 g4 
 
 m5

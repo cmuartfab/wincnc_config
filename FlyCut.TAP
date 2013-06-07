@@ -1,4 +1,5 @@
 [Make sure that the spoilboard cutter is in and measured]
+[TODO(maxhawkins): add a scary, long warning. can we make it variable cut depth? prompt for a password? rename this cut spoilboard or something]
 g4
 [IF THIS IS A NEW SPOIL BOARD TOUCH TOP OF SPOIL BOARD
 [AND CALIBRATE SWITCH FIRST
