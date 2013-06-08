@@ -6,7 +6,6 @@ G4
 [Does the air regulator above spindle read 62psi]
 G4
 
-m98 home.mac
 T1
 g53 x{tmx}y{tmy}
 m3
