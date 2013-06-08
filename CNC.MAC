@@ -13,8 +13,8 @@ m30=m98 clear.mac
 m52=m98 macros.tool_release.mac
 m53=m98 macros.tool_clamp.mac
 
-m61=m98 macros.vacuum_on.mac
-m62.1=m98 macros.vacuum_off.mac [ hurts the motor so use sparingly
+m61=m98 macros.table_vacuum_on.mac
+m62.1=m98 macros.table_vacuum_off.mac [ hurts the motor so use sparingly
 M61.1=m98 macros.table_vacuum_bypass_off.mac
 m62=m98 macros.table_vacuum_bypass_on.mac
 [ TODO(maxhawkins): test if m61.1 and m62 really work

@@ -7,7 +7,7 @@ m5            [Spindle Off]
 g53z	      [Raise Head]	     
 [g54	      
 m17.1 c12     [Run If Tool In Spindle]
-m98 tu.mac    [Run Tool Unload Tool Macro]
+m98 macros.tool_stow.mac    [Run Tool Unload Tool Macro]
 m18 c12       [Wait For No Tool In Spindle]
 L110 t0       [Select No Tool]
 g53 t{t}xy    [Go To Tool Change Position in X & Y]
